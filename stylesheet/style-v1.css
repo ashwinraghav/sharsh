@@ -1,7 +1,7 @@
 @font-face
 {
 	font-family: Honey;
-	src: url('https://s3.amazonaws.com/sharsh/fonts/HoneyScript-Light.ttf');
+	src: url('../fonts/HoneyScript-Light.ttf');
 }
 
 body{
@@ -281,7 +281,7 @@ body{
 }
 
 .footer {
-	height: 220px;
+	height: 230px;
 	margin-bottom: 20px;
 	letter-spacing: 1px;
 }
@@ -330,7 +330,11 @@ body{
 }
 
 .pizza {
-	padding:10px;
+	padding:5px;
+}
+
+.rings {
+	padding: 10px;
 }
 
 .morning_div, .yes_div {
@@ -558,3 +562,4 @@ body{
 .muhurtham span, .reception span {
 	font-size: 25px;
 }
+
