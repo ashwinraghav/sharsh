@@ -1,0 +1,560 @@
+@font-face
+{
+	font-family: Honey;
+	src: url('../fonts/HoneyScript-Light.ttf');
+}
+
+body{
+	margin: 0 auto;
+	font-family: "Honey";
+	background-color: #f1f2f2;
+	color: white;
+	font-size: 30px;
+}
+
+.header {
+	height: 70px;
+	background-color: #353535;
+}
+
+.inner_header {
+	width: 960px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.important_date {
+	background-color: #feba69;
+	width: auto;
+	display: inline-block;
+	padding: 5px 30px;
+	color: white;
+	font-size: 26px;
+}
+
+.header_text {
+	color: white;
+	font-size: 45px;
+	margin-left: 20px;
+	position: absolute;
+	margin-top: 10px;
+}
+
+.heres_why {
+	height: 60px;
+	width: 60px;
+	border-radius: 60px;
+	float: right;
+	background-color: #f1f2f2;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.heres_why span {
+	font-size: 21px;
+	float: left;
+	color: #353535;
+	margin-left: -15px;
+	margin-top: 8px;
+	z-index: 1000;
+	position: absolute;
+}
+
+.pointer {
+	background: url('../images/pointer.png') no-repeat;
+	float: right;
+	height: 100px;
+	margin-right: -105px;
+	margin-top: 36;
+	width: 100px;
+}
+
+.container {
+	width: 830px;
+	margin: 0 auto;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.intro_div {
+	height: 223px;
+	width: 385px;
+	background-color: #10bd8f;
+	float: left;
+}
+
+.shar_intro {
+	float: left;
+	margin-left: 45px;
+	margin-top: 25px;
+}
+
+.ash_intro {
+	float: right;
+	margin-right: 45px;
+	margin-top: 25px;
+}
+
+.plus {
+	font-size: 100px;
+	position: relative;
+	top: 30px;
+	left: 10px;
+	color: 44817a;
+}
+
+.intro {
+	font-size: 30px;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+.psg_div, .se_div, .ways_div, .date, .location, .wed, .on_12th, .on_13th,.sangeeth_theme, .muhurtham, .reception, .honeymoon {
+	height: 204px;
+	width: 175px;
+	background-color: #ff3263;
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+.psg_div span {
+	font-size: 20px;
+	float:left;
+	margin-bottom: 10px;
+	margin-left:50px;
+}
+
+.ways_div, .on_12th {
+	background-color: #ffbe3c;
+	margin-top: 15px;
+}
+
+.se_div, .date, .wed {
+	background-color: #37b7de;
+	font-size: 25px;
+}
+
+.nerd_glasses {
+	padding: 15px;
+}
+
+.diploma {
+	padding: 15px;
+}
+
+.away {
+	padding: 5px;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.friends_div, .ny_div, .morning_div, .translation_div, .yes_div {
+	background-color: #c15f78;
+	height: 204px;
+	width: 315px;
+	float: left;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.friends, .shar_ash {
+	padding: 5px 10px;
+}
+
+.friends_text {
+	float: right;
+	width: 193px;
+	margin-top: -107px;
+	font-size: 26px;
+}
+
+.careers_div, .celebration_div {
+	height: 204px;
+	width: 245px;
+	float: left;
+	margin-top:15px;
+	margin-left: 20px;
+}
+
+.afternoon_12_div, .morning_12_div {
+	height: 204px;
+	width: 220px;
+	float: left;
+	margin-top:20px;
+	text-align: center;
+}
+
+.morning_12_div {
+	margin-left: 20px;
+}
+
+.vradham, .nisch, .mehendi, .sangeeth {
+	background-color: #FF3263;
+	height: 102;
+	width: 220px;
+}
+
+.nisch, .sangeeth {
+	margin-top: 5px;
+}
+
+.paisley {
+	padding: 20px 20px;
+	float: left;
+}
+
+.gans {
+	padding: 10px 25px;
+	float: left;
+}
+
+.music {
+	padding: 29px 21px;
+	float: left;
+}
+
+.mehendi .text, .sangeeth .text {
+	float: right;
+	margin-top: 20px;
+	margin-right: 33px;
+}
+
+.vradham .text {
+	float: right;
+	margin-top: 20px;
+	margin-right: 33px;
+}
+
+.nisch .text {
+	float: right;
+	margin-top: 20px;
+	margin-right: 8px;
+}
+
+.afternoon_12_div {
+	margin-left: 5px;
+}
+
+.shar_career, .ash_career {
+	background-color: #c2a3ff;
+	width: 245px;
+	height: 107px;
+}
+
+.ash_career {
+	margin-top:10px;
+}
+
+.monkey {
+	padding: 4px 10px;
+	float: left;
+}
+
+.monkey_text {
+	padding: 25px 2px;
+}
+
+.map {
+	padding: 35px 10px;
+	float: left;
+}
+
+.map_text {
+	padding: 20px 2px;
+}
+
+.after_one_year, .proposal, .footer, .skip {
+	background-color: #d3cb9d;
+	height: 130px;
+	width: 815px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.footer {
+	height: 220px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+.footer .copyright {
+	font-size: 20px;
+}
+
+.footer .color {
+	color: #FFBE3C;
+}
+
+.skip {
+	padding-top:10px;
+	height: 35px;
+	margin-bottom: 20px;
+	font-size: 25px;
+	cursor: pointer;
+	background-color: #d3cb9d;
+	letter-spacing: 1px;
+	color: #353535;
+}
+
+.reel {
+	padding: 10px;
+}
+
+.ny_div {
+	background-color: #FF3263;
+	width: 530px;
+	height: 250px;
+}
+
+.ny {
+	padding: 30px 20px;
+	float: left;
+}
+
+.ny_text {
+	text-align: center;
+	padding:10px;
+}
+
+.ny_text span {
+	font-size: 25px;
+}
+
+.pizza {
+	padding:10px;
+}
+
+.morning_div, .yes_div {
+	width: 225px;
+	margin-left: 20px;
+	background-color: #9bbeff; 
+	height: 250px;
+	text-align: center;
+	font-size: 29px;
+}
+
+.proposal {
+	background-color: #10bd8f;
+	font-size: 28px;
+	height: 140px;
+}
+
+.footer {
+	background-color: #353535;
+}
+
+.translation_div {
+	background-color: #FFBE3C;
+	margin-top: 20px;
+	width: 180px;
+	height: 150px;
+	text-align: center;
+}
+
+.trans {
+	padding: 8px;
+}
+
+.celebration_div {
+	margin-top: 20px;
+	width: 100px;
+	height: 77px;
+}
+
+.love, .clink {
+	background-color: #FFBE3C;
+	height: 77px;
+	width: 100px;
+}
+
+.heart, .champagne {
+	padding: 15px 25px;
+}
+
+.clink {
+	margin-top: 15px;
+}
+
+.yes_div {
+	background-color: #FFBE3C;
+	margin-top: 20px;
+	height: 150px;
+	width: 455px;
+	text-align:left;
+}
+
+.yes {
+	float: right;
+	padding: 5px 10px;
+}
+
+.yes_div div {
+	padding: 20px;
+	text-align: center;
+}
+
+.yes_div span {
+	font-size: 25px;
+}
+
+.date, .location {
+	margin-left: 0px;
+	margin-top: 20px;
+	width: 180px;
+	height: 140px;
+	border-top: 50px #2e95b3 solid;
+	border-bottom: 80px #2e95b3 solid;
+	font-size: 150px;
+}
+
+.date .top, .bottom {
+	margin-top: -55px;
+	font-size: 45px;
+	margin-left: 23px;
+	float: left;
+}
+
+.date .bottom {
+	font-size: 35px;
+	margin-top: 10px;
+}
+
+.location {
+	margin-left: 20px;
+	background-color: #c15f78;
+	border-bottom: 0px;
+	border-top: 80px #9b455b solid;
+	height: 190px;
+	text-align: left;
+	width: 200px;
+	font-size: 40px;
+}
+
+.sun {
+	margin-top: -78px;
+}
+
+.location .top {
+	margin-top: -55px;
+	font-size: 45px;
+	margin-left: 80px;
+	float: left;
+}
+
+.mark {
+	float: left;
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+.mandap {
+	float: left;
+	margin-left: 12px;
+	text-align: center;
+	margin-top: 17px;
+	font-size: 35px;
+}
+
+.wed{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 200px;
+	width: 335px;
+	height: 270px;
+	font-size: 35px;
+}
+
+.man_wife {
+	padding: 10px;
+	margin-top: 25px;
+}
+
+.car {
+	padding: 20px;
+}
+
+.social {
+	margin-top: -50px;
+}
+
+.facebook, .twitter, .github, .blog {
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+	background-color: white;
+	float: right;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.facebook {
+	background: #10BD8F url('../images/fb.png') no-repeat;
+}
+
+.twitter {
+	background: #2E95B3 url('../images/twitter.png') no-repeat;
+}
+
+.github {
+	background: #FFBE3C url('../images/github.png') no-repeat;
+}
+
+.blog {
+	background: #FF3263 url('../images/blogger.png') no-repeat;
+}
+
+.on_12th, .on_13th, .sangeeth_theme, .muhurtham, .reception, .honeymoon {
+	margin-top: 20px;
+	margin-left: 0px;
+	height: 190px;
+	width: 100px;
+}
+
+.cal {
+	padding: 20px 0px;
+}
+
+.sangeeth_theme {
+	background-color: #10BD8F;
+	width: 190px;
+	height: 189px;
+	margin-left: 20px;
+}
+
+.muhurtham, .reception, .honeymoon {
+	background-color: #f3800f;
+	width: 240px;
+	height: 189px;
+	margin-left: 20px;
+}
+
+.reception {
+	background-color: #C2A3FF;
+}
+
+.honeymoon {
+	background-color: #D3CB9D;
+	width: 95px;
+	font-size: 25px;
+}
+
+.sangeeth_theme span {
+	font-size: 23px;
+}
+
+.on_13th {
+	background-color: #FEBA69;
+}
+
+.muhurtham span, .reception span {
+	font-size: 25px;
+}
