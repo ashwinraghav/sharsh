@@ -109,7 +109,7 @@ body{
 	margin-left: 20px;
 }
 
-.psg_div, .se_div, .ways_div, .date, .location, .wed {
+.psg_div, .se_div, .ways_div, .date, .location, .wed, .on_12th, .on_13th,.sangeeth_theme, .muhurtham, .reception, .honeymoon {
 	height: 204px;
 	width: 175px;
 	background-color: #ff3263;
@@ -119,7 +119,14 @@ body{
 	text-align: center;
 }
 
-.ways_div {
+.psg_div span {
+	font-size: 20px;
+	float:left;
+	margin-bottom: 10px;
+	margin-left:50px;
+}
+
+.ways_div, .on_12th {
 	background-color: #ffbe3c;
 	margin-top: 15px;
 }
@@ -134,7 +141,7 @@ body{
 }
 
 .diploma {
-	padding: 25px;
+	padding: 15px;
 }
 
 .away {
@@ -178,6 +185,65 @@ body{
 	margin-left: 20px;
 }
 
+.afternoon_12_div, .morning_12_div {
+	height: 204px;
+	width: 220px;
+	float: left;
+	margin-top:20px;
+	text-align: center;
+}
+
+.morning_12_div {
+	margin-left: 20px;
+}
+
+.vradham, .nisch, .mehendi, .sangeeth {
+	background-color: #FF3263;
+	height: 102;
+	width: 220px;
+}
+
+.nisch, .sangeeth {
+	margin-top: 5px;
+}
+
+.paisley {
+	padding: 20px 20px;
+	float: left;
+}
+
+.gans {
+	padding: 10px 25px;
+	float: left;
+}
+
+.music {
+	padding: 29px 21px;
+	float: left;
+}
+
+.mehendi .text, .sangeeth .text {
+	float: right;
+	margin-top: 20px;
+	margin-right: 33px;
+}
+
+.vradham .text {
+	float: right;
+	margin-top: 20px;
+	margin-right: 33px;
+}
+
+.nisch .text {
+	float: right;
+	margin-top: 20px;
+	margin-right: 8px;
+}
+
+.afternoon_12_div {
+	margin-left: 5px;
+}
+
 .shar_career, .ash_career {
 	background-color: #c2a3ff;
 	width: 245px;
@@ -206,12 +272,37 @@ body{
 	padding: 20px 2px;
 }
 
-.after_one_year, .proposal, .footer {
+.after_one_year, .proposal, .footer, .skip {
 	background-color: #d3cb9d;
 	height: 130px;
 	width: 815px;
 	margin-top: 20px;
 	text-align: center;
+}
+
+.footer {
+	height: 220px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+.footer .copyright {
+	font-size: 20px;
+}
+
+.footer .color {
+	color: #FFBE3C;
+}
+
+.skip {
+	padding-top:10px;
+	height: 35px;
+	margin-bottom: 20px;
+	font-size: 25px;
+	cursor: pointer;
+	background-color: #d3cb9d;
+	letter-spacing: 1px;
+	color: #353535;
 }
 
 .reel {
@@ -370,6 +461,7 @@ body{
 	margin-left: 12px;
 	text-align: center;
 	margin-top: 17px;
+	font-size: 35px;
 }
 
 .wed{
@@ -388,4 +480,81 @@ body{
 
 .car {
 	padding: 20px;
+}
+
+.social {
+	margin-top: -50px;
+}
+
+.facebook, .twitter, .github, .blog {
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+	background-color: white;
+	float: right;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.facebook {
+	background: #10BD8F url('../images/fb.png') no-repeat;
+}
+
+.twitter {
+	background: #2E95B3 url('../images/twitter.png') no-repeat;
+}
+
+.github {
+	background: #FFBE3C url('../images/github.png') no-repeat;
+}
+
+.blog {
+	background: #FF3263 url('../images/blogger.png') no-repeat;
+}
+
+.on_12th, .on_13th, .sangeeth_theme, .muhurtham, .reception, .honeymoon {
+	margin-top: 20px;
+	margin-left: 0px;
+	height: 190px;
+	width: 100px;
+}
+
+.cal {
+	padding: 20px 0px;
+}
+
+.sangeeth_theme {
+	background-color: #10BD8F;
+	width: 190px;
+	height: 189px;
+	margin-left: 20px;
+}
+
+.muhurtham, .reception, .honeymoon {
+	background-color: #f3800f;
+	width: 240px;
+	height: 189px;
+	margin-left: 20px;
+}
+
+.reception {
+	background-color: #C2A3FF;
+}
+
+.honeymoon {
+	background-color: #D3CB9D;
+	width: 95px;
+	font-size: 25px;
+}
+
+.sangeeth_theme span {
+	font-size: 23px;
+}
+
+.on_13th {
+	background-color: #FEBA69;
+}
+
+.muhurtham span, .reception span {
+	font-size: 25px;
 }
