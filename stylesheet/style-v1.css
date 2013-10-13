@@ -1,7 +1,7 @@
 @font-face
 {
 	font-family: Honey;
-	src: url('../fonts/HoneyScript-Light.ttf');
+	src: url('https://s3.amazonaws.com/sharsh/fonts/HoneyScript-Light.ttf');
 }
 
 body{
