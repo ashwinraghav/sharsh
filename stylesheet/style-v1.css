@@ -236,8 +236,9 @@ body{
 
 .nisch .text {
 	float: right;
-	margin-top: 20px;
-	margin-right: 8px;
+	margin-top: 25px;
+	margin-right: 20px;
+	font-size: 25px;
 }
 
 .afternoon_12_div {
