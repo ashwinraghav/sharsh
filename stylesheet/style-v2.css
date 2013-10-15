@@ -1,0 +1,56 @@
+.win.gecko .important_date, .win.webkit .important_date {
+background-color: #feba69;
+width: auto;
+display: inline-block;
+padding: 0px 30px;
+color: white;
+font-size: 26px;
+}
+
+.win.gecko .important_date {
+padding: 5px 30px;
+}
+
+.win.gecko .intro, .win.webkit .intro {
+font-size: 30px;
+margin-top: 35px;
+margin-left: 20px;
+}
+
+.win.gecko .diploma, .win.webkit .diploma {
+padding: 5px;
+}
+
+.win.gecko .nerd_glasses, .win.webkit .nerd_glasses {
+padding: 5px;
+}
+
+.win.gecko .friends, .win.gecko .shar_ash,  .win.webkit .friends, .win.webkit .shar_ash{
+padding: 0px 10px;
+}
+
+.win.gecko .morning_div, .win.webkit .morning_div {
+font-size: 28px;
+}
+
+.win.gecko .rings, .win.webkit .rings {
+padding: 5px;
+}
+
+.win.gecko .trans, .win.webkit .trans {
+padding: 0px;
+}
+
+.win.gecko .yes_div div, .win.webkit .yes_div div {
+padding: 0px;
+text-align: center;
+}
+
+.win.gecko .date .bottom, .win.webkit .date .bottom {
+font-size: 35px;
+margin-top: -25px;
+}
+
+.win.gecko .honeymoon, .win.webkit .honeymoon {
+font-size: 24px;
+}
